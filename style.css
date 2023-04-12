@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #3b5998;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #post-form {
+    margin: 20px;
+  }
+  
+  textarea {
+    margin-top: 80px;
+    margin-left: 250px;
+    width: 75%;
+    height: 20px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #F0F2F5;
+  }
+  
+.post-button {
+    margin-left: 250px;
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    padding: 5px ;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .post-button:hover {
+    background-color: #4e6fb6;
+  }
+  
+  #posts {
+    margin: 20px;
+  }
+  
+  article {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  article h2 {
+    margin-top: 0;
+  }
+  .post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  article {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .like-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    background-image: url(like-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+  }
+  .like-button:hover {
+    opacity: 0.8;
+  }
+  
+  .likes-count {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+  }
+  
+  img {
+    width: 600px;
+    height: 300px;
+    margin-top: 10px;
+  }
+  .like-button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    background-image: url(https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/blue-like-button-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 30px; 
+  }
+  .sidebar {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 70px;
+    position: fixed;
+    top: 0;
+    left: 0; /* alterado de 'right' para 'left' */
+    width: 200px;
+    height: 100%;
+    background-color: #F0F2F5;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+   
+    justify-content:flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  #content {
+    margin-top: 50px; /* adicione o valor da altura do header aqui */
+    margin-left: 200px;
+    padding: 20px;
+  }
+  .puser{
+    font-size: 14px;
+    font-weight: bold; 
+  }
+  .ppost{
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .imguser{
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .imgusuario{
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .imgnav{
+    width: 25px;
+    height: 20px
+  }
+  .imgside{
+    width: 20px;
+    height: 15px;
+  }
+ 
+ 
